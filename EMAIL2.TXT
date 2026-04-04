@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body style="margin:0;padding:0;">
+  <table cellpadding="0" cellspacing="0" border="0" style="width:580px;font-family:Arial,Helvetica,sans-serif;background:#ffffff;border-radius:12px;overflow:hidden;border:1px solid #dde8ec;">
+
+  <!-- TOP TEAL BAR -->
+  <tr>
+    <td height="5" style="font-size:0;line-height:0;background:linear-gradient(90deg,#1ac2c1 0%,#0de0df 55%,rgba(26,194,193,0.28) 100%);">&nbsp;</td>
+  </tr>
+
+  <!-- MAIN BODY -->
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+
+          <!-- LEFT: Photo + Logo -->
+          <td width="160" valign="middle" style="padding:24px 0;text-align:center;vertical-align:center;">
+
+            <!-- PROFILE PHOTO -->
+            <div style="width:120px;height:120px;margin:0 auto 10px auto;overflow:hidden;border-radius:50%;background:#f0f0f0;">
+                <!-- Placeholder used for photo src as original was "#" -->
+                <img src="https://picsum.photos/seed/simon/200/200" width="120px" height="120px" style="border-radius:50%;object-fit:cover;display:block;" alt="Simon Smith">
+            </div>
+
+            <!-- COMPANY LOGO -->
+            <div style="width:120px;height:50px;margin:0 auto;display:flex;align-items:center;justify-content:center;">
+              <img src="https://placehold.co/130x50/1ac2c1/ffffff?text=Verifitech" 
+                   alt="Verifitech"
+                   width="130px" height="50px"
+                   style="object-fit:contain;display:block;">
+            </div>
+          </td>
+
+          <!-- VERTICAL RULE -->
+          <td width="1" valign="middle" style="padding:0;">
+            <div style="width:1px;height:280px;background:linear-gradient(180deg,transparent 0%,#c2d8e0 15%,#c2d8e0 85%,transparent 100%);">&nbsp;</div>
+          </td>
+
+          <!-- RIGHT: All Info -->
+          <td valign="middle" style="padding:24px 22px 24px 20px;">
+            
+            <!-- NEW INNER TABLE FOR DETAILS + QR CODE -->
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tr>
+                
+                <!-- LEFT COLUMN: CONTACT DETAILS -->
+                <td valign="top">
+                  
+                    <!-- Name / Role / Company -->
+                    <div style="font-family:Georgia,'Times New Roman',serif;font-size:21px;font-weight:700;color:#0b1e2d;line-height:1;margin-bottom:4px;">Simon Smith</div>
+                    <div style="font-size:10px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#1ac2c1;margin-bottom:2px;">Head of Marketing</div>
+                    <div style="font-size:12px;font-weight:600;color:#4a6a7a;margin-bottom:13px;">Verifitech</div>
+                    <div style="height:1px;background:linear-gradient(90deg,#e0ecf0,transparent);margin-bottom:12px;"></div>
+
+                    <!-- CONTACTS with Base64 IMG Icons -->
+                    <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:13px;">
+                      
+                      <!-- Numbers Block -->
+                      <tr>
+                        <td style="padding-bottom:7px;">
+                          <table cellpadding="0" cellspacing="0" border="0">
+                            <tr valign="top">
+                              <!-- Single Icon Column -->
+                              <td style="padding-right:7px;">
+                                <div style="width:22px;height:22px;border-radius:6px;background:#f0fdfb;border:1px solid rgba(26,194,193,0.2);text-align:center;line-height:22px;">
+                                  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMxYWMyYzEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjIgMTYuOTJ2M2EyIDIgMCAwIDEtMi4xOCAyIDE5Ljc5IDE5Ljc5IDAgMCAxLTguNjMtMy4wNyAxOS41IDE5LjUgMCAwIDEtNi02IDE5Ljc5IDE5Ljc5IDAgMCAxLTMuMDctOC42N0EyIDIgMCAwMSA0LjExIDJoM2EyIDIgMCAwIDEgMiAxLjcyIDEyLjg0IDEyLjg0IDAgMCAwIC43IDIuODEgMiAyIDAgMCAxLS40NSAyLjExTDguMDkgOS45YTE2IDE2IDAgMCAwIDYgNmwxLjI3LTEuMjdhMiAyIDAgMCAxIDIuMTEtLjQ1IDEyLjg0IDEyLjg0IDAgMCAwIDIuODEuN0EyIDIgMCAwIDEgMjIgMTYuOTJ6Ii8+PC9zdmc+" width="12" height="12" style="vertical-align:middle;" alt="Phone">
+                                </div>
+                              </td>
+                              <!-- Numbers Column -->
+                              <td style="font-size:12px;color:#3a5a6a; line-height:1.5;">
+                                <a href="tel:+919240262318" style="color:#3a5a6a;text-decoration:none;">+91 924 026 2318</a><br>
+                                <a href="tel:+19292141144" style="color:#3a5a6a;text-decoration:none;">+1 929 214 1144</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Email -->
+                      <tr>
+                        <td style="padding-bottom:7px;">
+                          <table cellpadding="0" cellspacing="0" border="0">
+                            <tr valign="middle">
+                              <td style="padding-right:7px;">
+                                <div style="width:22px;height:22px;border-radius:6px;background:#f0fdfb;border:1px solid rgba(26,194,193,0.2);text-align:center;line-height:22px;">
+                                  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMxYWMyYzEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTYiIHg9IjIiIHk9IjQiIHJ4PSIyIi8+PHBhdGggZD0ibTIyIDctOC45NyA1LjdhMS45NCAxLjk0IDAgMCAxLTIuMDYgMEwyIDciLz48L3N2Zz4=" width="12" height="12" style="vertical-align:middle;" alt="Email">
+                                </div>
+                              </td>
+                              <td style="font-size:12px;color:#3a5a6a;">
+                                <a href="mailto:simon@verifitech.com" style="color:#3a5a6a;text-decoration:none;">simon@verifitech.com</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Website -->
+                      <tr>
+                        <td>
+                          <table cellpadding="0" cellspacing="0" border="0">
+                            <tr valign="middle">
+                              <td style="padding-right:7px;">
+                                <div style="width:22px;height:22px;border-radius:6px;background:#f0fdfb;border:1px solid rgba(26,194,193,0.2);text-align:center;line-height:22px;">
+                                  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMxYWMyYzEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIyIiB4Mj0iMjIiIHkxPSIxMiIgeTI9IjEyIi8+PHBhdGggZD0iTTEyIDJhMTUuMyAxNS4zIDAgMCAxIDQgMTAgMTUuMyAxNS4zIDAgMCAxLTQgMTAgMTUuMyAxNS4zIDAgMCAxLTQtMTAgMTUuMyAxNS4zIDAgMCAxIDQtMTB6Ii8+PC9zdmc+" width="12" height="12" style="vertical-align:middle;" alt="Website">
+                                </div>
+                              </td>
+                              <td style="font-size:12px;color:#3a5a6a;">
+                                <a href="https://verifitech.com" style="color:#3a5a6a;text-decoration:none;">verifitech.com</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- SOCIAL MEDIA ICONS -->
+                    <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:13px;">
+                      <tr>
+                        <td style="padding-right:7px;"><a href="https://linkedin.com/company/verifitech" title="LinkedIn" style="display:block;width:32px;height:32px;border-radius:8px;background:#1ac2c1;text-align:center;text-decoration:none;box-shadow:0 2px 8px rgba(26,194,193,0.28);"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTE2IDhhNiA2IDAgMCAxIDYgNnY3aC00di03YTIgMiAwIDAgMC0yLTIgMiAyIDAgMCAwLTIgMnY3aC00di03YTYgNiAwIDAgMSA2LTZ6Ii8+PHJlY3Qgd2lkdGg9IjQiIGhlaWdodD0iMTIiIHg9IjIiIHk9IjkiLz48Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iMiIvPjwvc3ZnPg==" width="16" height="16" style="margin-top:8px;vertical-align:top;" alt="LinkedIn"></a></td>
+
+                        <td style="padding-right:7px;"><a href="https://facebook.com/verifitech" title="Facebook" style="display:block;width:32px;height:32px;border-radius:8px;background:#1ac2c1;text-align:center;text-decoration:none;box-shadow:0 2px 8px rgba(26,194,193,0.28);"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTE4IDJoLTNhNSA1IDAgMCAwLTUgNXYzSDd2NGgzdjhoNHYtOGgzbDEtNGgtNHYtMmExIDEgMCAwIDEgMS0xaDN6Ii8+PC9zdmc+" width="16" height="16" style="margin-top:8px;vertical-align:top;" alt="Facebook"></a></td>
+
+                        <td style="padding-right:7px;"><a href="https://instagram.com/verifitech" title="Instagram" style="display:block;width:32px;height:32px;border-radius:8px;background:#1ac2c1;text-align:center;text-decoration:none;box-shadow:0 2px 8px rgba(26,194,193,0.28);"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB4PSIyIiB5PSIyIiByeD0iNSIgcnk9IjUiLz48cGF0aCBkPSJNMTYgMTEuMzdBIDQgNCAwIDEgMSAxMi42MyA4IDQgNCAwIDAgMSAxNiAxMS4zN3oiLz48bGluZSB4MT0iMTcuNSIgeDI9IjE3LjUxIiB5MT0iNi41IiB5Mj0iNi41Ii8+PC9zdmc+" width="16" height="16" style="margin-top:8px;vertical-align:top;" alt="Instagram"></a></td>
+                        
+                        <!-- WHATSAPP -->
+                        <td style="padding-right:7px;">
+                            <a href="https://wa.me/7708025996" title="WhatsApp" style="display:block;width:32px;height:32px;border-radius:8px;background:#25D366;text-align:center;text-decoration:none;box-shadow:0 2px 8px rgba(37, 211, 102,0.28);">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJhOCA4IDAgMCAwLTggOCA4IDAgMCAwIDEwLjM5IDcuNjYgOS41IDkuNSAwIDAgMS0yLjY1Ljc0QyA4LjM4IDE5LjU0IDggMTkuNTMgOCAxOS41M2ExMCAxMCAwIDAgMC0uNS0uNjMgMCA4IDAgMCAwIDEwLjU1LTEwLjU1QSA4IDggMCAwIDAgMTIgMnoiLz48cGF0aCBkPSJNOS4xNiA4LjI0Yy4yLS40IDMuODgtMy44NiA0LjMzLTMuODZhMS40NCAxLjQ0IDAgMCAxIDEuMDEuNDRjLjI4LjI4LjkuOS45IDEuNjMgMCAxLjM5LTEuMDYgMS4zOS0xLjM5IDAtLjUyLS4xNS0uNjgtLjI4LS44MmwtLjU2LS41NmEzLjUgMy41IDAgMCAwLTIuNCAwbC0uMy4zYy0uMjIuMjItLjU1LjU1LS41NS41NWwtMS4xMyAxLjEzYTIuMzYgMi4zNiAwIDAgMC0uNjUgMS4xNHYxLjYyYTIuMzYgMi4zNiAwIDAgMCAuNjUgMS4xNGwxLjEzIDEuMTNjMCAwIC4zMy4zMy41NS41NWwuMy4zYTIuMzYgMi4zNiAwIDAgMCAyLjQgMGwuNTYtLjU2Yy4xNC0uMTQuMjgtLjMuMjgtLjgyIDAtLjMzLS42My0xLjM5LTEuMzktMS4zOS0uNzMgMC0xLjM1LjYyLTEuNjMuOWExLjQ0IDEuNDQgMCAwIDEtMS4wMS40NGMtLjQ1IDAtNC4xMy0zLjQ2LTQuMzMtMy44NnoiLz48L3N2Zz4=" width="16" height="16" style="margin-top:8px;vertical-align:top;" alt="WhatsApp">
+                            </a>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- ADDRESS -->
+                    <table cellpadding="0" cellspacing="0" border="0"><tr valign="middle">
+                      <td style="font-size:11px;color:#7a9aaa;font-weight:400;line-height:1.4;">123 Business Bay, Tech Park<br>Innovation City, IN 560001</td>
+                    </tr></table>
+                </td>
+
+                <!-- RIGHT COLUMN: QR CODE -->
+                <td width="105" valign="middle" style="padding-left:20px;">
+                    <div style="text-align:center;">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://verifitech.com&color=1ac2c1" width="100" height="100" style="display:block;border-radius:4px;border:1px solid #dde8ec;" alt="Scan to Visit Website">
+                        <div style="font-size:9px;color:#1ac2c1;margin-top:4px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Scan to Visit</div>
+                    </div>
+                </td>
+
+              </tr>
+            </table>
+            <!-- END INNER TABLE FOR DETAILS + QR CODE -->
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- ACCREDITATION STRIP -->
+  <tr>
+    <td style="background-color: #f5f9fb; border-top: 1px solid #e4edf1; padding: 12px 22px;">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse: collapse;">
+        <tr>
+          <!-- Label -->
+          <td valign="middle" style="font-family: Arial, sans-serif; font-size: 8px; font-weight: bold; letter-spacing: 0.15em; text-transform: uppercase; color: #9db8c4; white-space: nowrap; padding-right: 12px;">
+            Certified &amp; Member
+          </td>
+
+          <!-- Divider -->
+          <td width="1" style="background-color: #d4e2e8; padding: 0; font-size: 0; line-height: 0;">&nbsp;</td>
+
+          <!-- Badges Container -->
+          <td valign="middle" style="padding-left: 12px;">
+            <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+              <tr>
+
+                <!-- NASSCOM Badge -->
+                <td style="padding-right: 8px;">
+                  <table cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border: 1px solid #dde8ed; border-radius: 0;">
+                    <tr>
+                      <td valign="middle" style="padding: 6px;">
+                        <!-- Icon Box -->
+                        <table cellpadding="0" cellspacing="0" border="0" style="width: 30px; height: 30px; background-color: #FF6B00; border-radius: 0;">
+                          <tr>
+                            <td align="center" valign="middle" style="font-family: Arial, sans-serif; font-weight: 900; font-size: 16px; color: #ffffff; line-height: 30px;">
+                              N
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td valign="middle" style="padding: 6px 10px 6px 4px;">
+                        <div style="font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; color: #c05200; line-height: 1.2;">NASSCOM</div>
+                        <div style="font-family: Arial, sans-serif; font-size: 8px; color: #8aaab4; font-weight: normal; margin-top: 2px;">Member</div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <!-- ISO 27001 Badge -->
+                <td style="padding-right: 8px;">
+                  <table cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border: 1px solid #dde8ed; border-radius: 0;">
+                    <tr>
+                      <td valign="middle" style="padding: 6px;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="width: 30px; height: 30px; background-color: #1D4ED8; border-radius: 0;">
+                          <tr>
+                            <td align="center" valign="middle" style="font-family: Arial, sans-serif; font-weight: 900; font-size: 7px; color: #ffffff; line-height: 1.1;">
+                              ISO<br>27001
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td valign="middle" style="padding: 6px 10px 6px 4px;">
+                        <div style="font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; color: #1d4ed8; line-height: 1.2;">ISO 27001</div>
+                        <div style="font-family: Arial, sans-serif; font-size: 8px; color: #8aaab4; font-weight: normal; margin-top: 2px;">Certified</div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <!-- PBSA Badge -->
+                <td>
+                  <table cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border: 1px solid #dde8ed; border-radius: 0;">
+                    <tr>
+                      <td valign="middle" style="padding: 6px;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="width: 30px; height: 30px; background-color: #16A34A; border-radius: 0;">
+                          <tr>
+                            <td align="center" valign="middle" style="font-family: Arial, sans-serif; font-weight: 900; font-size: 7px; color: #ffffff; line-height: 1.1;">
+                              PBSA
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td valign="middle" style="padding: 6px 10px 6px 4px;">
+                        <div style="font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; color: #15803d; line-height: 1.2;">PBSA</div>
+                        <div style="font-family: Arial, sans-serif; font-size: 8px; color: #8aaab4; font-weight: normal; margin-top: 2px;">Member</div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- BANNER -->
+  <tr> 
+    <td style="background:#ffffff;padding:16px 24px;border-top:3px solid #1ac2c1;">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="middle">
+        <td><div style="font-size:14px;font-weight:800;color:#1ac2c1;margin-bottom:4px;font-family:Arial,Helvetica,sans-serif;">Verify First Build Trust</div><div style="font-size:10px;color:#222;">Empowering Businesses <span style="color:#222;font-weight:100;">with Fast, Accurate & Compliant Screening Solutions</span></div></td>
+        <td align="right" style="white-space:nowrap;padding-left:20px;"><a href="https://verifitech.com " style="background:#1ac2c1;color:#ffffff;font-size:10px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;padding:9px 22px;border-radius:8px;text-decoration:none;display:inline-block;">Learn More</a></td>
+      </tr></table>
+    </td>
+  </tr>
+
+  <!-- CONFIDENTIALITY FOOTER WITH PRIVACY & DISCLAIMER -->
+  <tr>
+    <td style="background:#f5f8fa;border-top:1px solid #e4edf1;padding:16px 24px;">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        
+        <!-- Row 1: Main Disclaimer -->
+        <tr>
+            <td style="font-size:9px;color:#7a9aaa;line-height:1.5;font-family:Arial,Helvetica,sans-serif;">
+                <span style="font-weight:bold; color:#4a6a7a;">CONFIDENTIALITY NOTICE:</span> The content of this email is confidential and intended for the recipient specified in the message only. It is strictly forbidden to share any part of this message with any third party without the written consent of the sender. If you received this message by mistake, please reply to this email and follow with its deletion, so that we can ensure such a mistake does not occur in the future.
+            </td>
+            <td align="right" style="padding-left:12px;white-space:nowrap;vertical-align:top;">
+                 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9InJnYmEoMjYsMTk0LDE5MywwLjYpIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDIyczgtNCA4LTEwVjVsLTgtMy04IDN2N2MwIDYgOCAxMCA4IDEweiIvPjxwYXRoIGQ9Im05IDEyIDIgMiA0LTQiLz48L3N2Zz4=" width="12" height="12" style="vertical-align:middle;margin-right:4px;opacity:0.8;" alt="Verified"> 
+                 <span style="font-size:8.5px;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;color:rgba(26,194,193,0.6);font-family:Arial,Helvetica,sans-serif;">Verified</span>
+            </td>
+        </tr>
+
+        <!-- Row 2: Email Privacy -->
+        <tr>
+            <td colspan="2" style="padding-top:8px; border-top:1px solid #ebf2f5;">
+                <div style="font-size:8px;color:#8aaab4;font-style:italic;line-height:1.4;font-family:Arial,Helvetica,sans-serif;">
+                    <span style="font-weight:bold; color:#8aaab4; font-style:normal;">EMAIL PRIVACY:</span> We respect your privacy. Your email address will only be used to communicate with you regarding your inquiry. We do not sell or rent your personal information to third parties.
+                </div>
+            </td>
+        </tr>
+
+        <!-- Row 3: General Disclaimer -->
+        <tr>
+            <td colspan="2" style="padding-top:6px;">
+                <div style="font-size:8px;color:#8aaab4;line-height:1.4;font-family:Arial,Helvetica,sans-serif;">
+                    <span style="font-weight:bold; color:#8aaab4;">DISCLAIMER:</span> Views and opinions expressed in this email are those of the author and do not necessarily reflect the official policy or position of Verifitech. Any information provided is for general informational purposes only.
+                </div>
+            </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+  </table>
+</body>
+</html>
